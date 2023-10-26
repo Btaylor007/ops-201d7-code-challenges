@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Script Name:                  loghistory
+# Author:                       Breanna Taylor
+# Date of latest revision:      10/25/2023
+# Purpose:                      all about function practice
+
+# Declaration of variables
+
+log_login_history(){
+echo "Login history at $(date):"
+grep"Accepted password" "$AUTH_LOG"
+
+
+
+
+# Declaration of functions
+
+ Sourced from https://chat.openai.com/c/65eeefdf-46b0-4beb-a855-ca1c89ef075f
+
+
+# End
