@@ -10,7 +10,9 @@
 log_login_history(){
 echo "Login history at $(date):"
 grep"Accepted password" "$AUTH_LOG"
+}
 
+print_$login_history greeting
 
 
 
