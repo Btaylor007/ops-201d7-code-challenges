@@ -8,17 +8,13 @@
 # Declaration of variables
 
 log_login_history(){
-echo "Login history at $(date):"
+/var/log/wtmp
 grep"Accepted password" "$AUTH_LOG"
 }
-
-print_$login_history greeting
+$login_history
 
 
 
 # Declaration of functions
 
- Sourced from https://chat.openai.com/c/65eeefdf-46b0-4beb-a855-ca1c89ef075f
-
-
-# End
+#End
