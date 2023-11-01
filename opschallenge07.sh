@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Script Name:                 opschallenge07
+# Author:                       Breanna Taylor
+# Date of latest revision:      10/31/2023
+# Purpose:                      Conditional 
+
 echo "CPU information"
 lshw | grep -i "cpu" -A 5
 
