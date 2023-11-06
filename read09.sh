@@ -1,0 +1,5 @@
+What is a Standard Operating Procedure (SOP), and why is it important for an organization? A unquie procedure to your company that describes the activites neede to commplete a task.
+What are the three types of documents that should be included in an SOP manual? Briefly describe each type. Policy- why, SOP-when what why, Work instructions-how 
+Why are SOPs considered a primary way to implement or enforce policies in an organization? To be able to achieve the mission and vision and goals of the org
+What does the author emphasize regarding the audience when writing SOPs, and why is it essential to consider them?
+Imagine you are a part of a multicultural team responsible for following an SOP. How would you address potential misunderstandings or differing interpretations of the procedure due to cultural differences? Propose strategies to foster effective cross-cultural communication.
