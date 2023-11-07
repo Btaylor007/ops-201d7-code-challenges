@@ -1,0 +1,39 @@
+
+
+
+Enable File and Printer Sharing
+Allow ICMP traffic
+
+Enable Remote management
+Remove bloatware
+Enable Hyper-V
+Disable SMBv1, an insecure protocol
+
+1Allow ICMP traffic
+.netsh advfirewall firewall add rule name="Allow incoming ping requests IPv4" dir=in action=allow protocol=icmpv4
+
+2.enabled file and printer sharing
+Set-NetFirewallRule -DisplayGroup "File And Printer Sharing" -Enabled True
+
+
+3.Bloatware Remover
+iex ((New-Object System.Net.WebClient).DownloadString('https://git.io/debloat'))
+
+4.Toggle SMBv1
+Set-SmbServerConfiguration -EnableSMB1Protocol $false -Force
+
+5.Enable Hyper-V
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+
+6.RDP
+reg add "HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
+
+
+
+Enable File and Printer Sharing
+Allow ICMP traffic
+
+Enable Remote management
+Remove bloatware
+Enable Hyper-V
+Disable SMBv1, an insecure protocol
